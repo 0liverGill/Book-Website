@@ -1,0 +1,299 @@
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 22, in login
+    wrong =5/0
+ZeroDivisionError: division by zero
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 22, in login
+    wrong =5/0
+ZeroDivisionError: division by zero
+[2022-12-08 15:25:29,704] ERROR in app: Exception on /login [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 22, in login
+    wrong =5/0
+ZeroDivisionError: division by zero
+[2022-12-08 15:26:19,160] ERROR in app: Exception on /login [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 40, in login
+    if wrong==1:
+UnboundLocalError: local variable 'wrong' referenced before assignment
+[2022-12-12 21:53:43,720] ERROR in app: Exception on /viewbooks [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 187, in viewbooks
+    for i in range(0,bookArray.length):
+AttributeError: 'list' object has no attribute 'length'
+[2022-12-12 21:54:31,892] ERROR in app: Exception on /viewbooks [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 188, in viewbooks
+    bookArray[i].genres[0] == bookArray[i].genres[0][5:]
+TypeError: 'Genre' object is not subscriptable
+[2022-12-12 21:55:21,742] ERROR in app: Exception on /viewbooks [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 189, in viewbooks
+    flash (bookArray[i].genres[0])
+IndexError: list index out of range
+[2022-12-12 21:55:21,759] ERROR in app: Request finalizing failed with an error while handling an error
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 189, in viewbooks
+    flash (bookArray[i].genres[0])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1540, in finalize_request
+    response = self.process_response(response)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1888, in process_response
+    self.session_interface.save_session(self, ctx.session, response)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/sessions.py", line 406, in save_session
+    val = self.get_signing_serializer(app).dumps(dict(session))  # type: ignore
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/itsdangerous/serializer.py", line 207, in dumps
+    payload = want_bytes(self.dump_payload(obj))
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/itsdangerous/url_safe.py", line 53, in dump_payload
+    json = super().dump_payload(obj)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/itsdangerous/serializer.py", line 169, in dump_payload
+    return want_bytes(self.serializer.dumps(obj, **self.serializer_kwargs))
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/json/tag.py", line 308, in dumps
+    return dumps(self.tag(value), separators=(",", ":"))
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/json/__init__.py", line 139, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "/uollinapps/mirror/eng/apps/install/anaconda3/5.2.0/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/uollinapps/mirror/eng/apps/install/anaconda3/5.2.0/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/uollinapps/mirror/eng/apps/install/anaconda3/5.2.0/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/json/__init__.py", line 57, in default
+    return super().default(o)
+  File "/uollinapps/mirror/eng/apps/install/anaconda3/5.2.0/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Genre' is not JSON serializable
+[2022-12-12 21:59:51,430] ERROR in app: Exception on /viewbooks [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 191, in viewbooks
+    genre = genre[7:]
+TypeError: 'Genre' object is not subscriptable
+[2022-12-12 22:01:28,455] ERROR in app: Exception on /viewbooks [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 192, in viewbooks
+    flash(genre[2:])
+TypeError: 'Genre' object is not subscriptable
+[2022-12-12 22:07:54,144] ERROR in app: Exception on /viewbooks [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 189, in viewbooks
+    i.genres = "woha"
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/attributes.py", line 461, in __set__
+    instance_state(instance), instance_dict(instance), value, None
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/attributes.py", line 1566, in set
+    % (given, wanted)
+TypeError: Incompatible collection type: str is not list-like
+[2022-12-12 22:08:16,954] ERROR in app: Exception on /viewbooks [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 189, in viewbooks
+    i.genres = ["woha"]
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/attributes.py", line 461, in __set__
+    instance_state(instance), instance_dict(instance), value, None
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/attributes.py", line 1604, in set
+    new_values, old_collection, new_collection, initiator=evt
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/collections.py", line 843, in bulk_replace
+    appender(member, _sa_initiator=initiator)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/collections.py", line 1169, in append
+    item = __set(self, item, _sa_initiator)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/collections.py", line 1134, in __set
+    item = executor.fire_append_event(item, _sa_initiator)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/collections.py", line 754, in fire_append_event
+    self.owner_state, self.owner_state.dict, item, initiator
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/attributes.py", line 1430, in fire_append_event
+    value = fn(state, value, initiator or self._append_token)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 56, in append
+    item_state = attributes.instance_state(item)
+AttributeError: 'str' object has no attribute '_sa_instance_state'
+[2022-12-12 22:08:18,707] ERROR in app: Exception on /viewbooks [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 189, in viewbooks
+    i.genres = ["woha"]
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/attributes.py", line 461, in __set__
+    instance_state(instance), instance_dict(instance), value, None
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/attributes.py", line 1604, in set
+    new_values, old_collection, new_collection, initiator=evt
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/collections.py", line 843, in bulk_replace
+    appender(member, _sa_initiator=initiator)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/collections.py", line 1169, in append
+    item = __set(self, item, _sa_initiator)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/collections.py", line 1134, in __set
+    item = executor.fire_append_event(item, _sa_initiator)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/collections.py", line 754, in fire_append_event
+    self.owner_state, self.owner_state.dict, item, initiator
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/attributes.py", line 1430, in fire_append_event
+    value = fn(state, value, initiator or self._append_token)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 56, in append
+    item_state = attributes.instance_state(item)
+AttributeError: 'str' object has no attribute '_sa_instance_state'
+[2022-12-12 22:09:41,977] ERROR in app: Exception on /viewbooks [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 189, in viewbooks
+    i.genres = ' '.join(i.genres)
+TypeError: sequence item 0: expected str instance, Genre found
+[2022-12-12 22:10:10,005] ERROR in app: Exception on /viewbooks [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 189, in viewbooks
+    i.genres = '<'.join(i.genres)
+TypeError: sequence item 0: expected str instance, Genre found
+[2022-12-12 22:10:15,685] ERROR in app: Exception on /viewbooks [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cserv1_a/soc_ug/sc21osg/flask/lib/python3.6/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/sc21osg/comp2011/CWK2/app/views.py", line 189, in viewbooks
+    i.genres = '<'.join(i.genres)
+TypeError: sequence item 0: expected str instance, Genre found
